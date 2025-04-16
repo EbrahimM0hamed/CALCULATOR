@@ -5,6 +5,10 @@ function appendToDisplay(value) {
     display.value += value;
 }
 
+function Delete(){
+    display.value = display.value.slice(0, -1);
+}
+
 // Clear the display content
 function clearDisplay() {
     display.value = '';
