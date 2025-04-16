@@ -37,8 +37,13 @@ button:active {
 }
 .btnD {
   background-color: #dc3545;
-  /* reduce the size  */
-    width: 20px;
+  width: 20px;
+}
+button.btnD:hover {
+  background-color: #c82333;
+}
+button.btnD:active {
+  background-color: #bd2131;
 }
 input[type="text"] {
   width: 108px;
